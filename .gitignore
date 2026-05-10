@@ -1,0 +1,71 @@
+# ============================================
+# CampusMate .gitignore
+# 让 git 和 Claude Code 忽略这些垃圾文件
+# ============================================
+
+# Node.js / 前端依赖
+node_modules/
+dist/
+build/
+.vite/
+*.local
+
+# Python / 后端
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+.eggs/
+*.egg-info/
+.pytest_cache/
+
+# 各种缓存（你之前压缩包里的元凶）
+.cache/
+.npm/
+.npm-global/
+.config/
+.local/
+.uv/
+
+# Puppeteer / 浏览器自动化缓存
+.puppeteer_cache/
+
+# 环境变量（敏感信息）
+.env
+.env.local
+.env.*.local
+
+# IDE 配置
+.vscode/
+.idea/
+*.swp
+*.swo
+.trae/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 构建产物
+*.tsbuildinfo
+.eslintcache
+
+# Claude Code / AI 工具的临时文件
+.claude/
+INSTRUCTIONS_FOR_CC.md
+PROJECT_GUIDE.md
+*.pdf
+*.zip
+.claude/
